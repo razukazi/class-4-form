@@ -1,0 +1,134 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.h1,h2,h3,h4,h5,h6,p,a,span,label,input,button,textarea{
+	font-family: 'Open Sans', sans-serif;}
+a{
+	text-decoration: none;
+}
+body{
+
+	width: 100%;
+	height: 100vh;
+	background-color: #92a5e5;
+}
+
+.main-box{
+	width: 70%;
+	margin: 100px auto;
+	height: 400px;
+}
+
+.box{
+	display: flex;
+	border-right: 8px;
+}
+
+.box-left{
+	background-color: white;
+	flex-basis: 50%;
+	padding: 30px 40px;
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+}	
+
+.box-right{
+	background-color: #4a34d4;
+	flex-basis: 50%;
+	padding: 30px 40px;
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.box-left h2{
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #4f7fc9;
+}
+
+.box div{
+	margin-bottom: 32px;
+}
+
+.full-width{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+.half-width{
+	width: 48%;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+.box-right h2{
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.transparent{
+	background: transparent;
+}
+
+input:focus, select:focus{
+	outline: none;
+	border-color: red;
+}
+
+input:focus::placeholder{
+	color: red;
+}
+
+.box-right .full-width{
+	border-bottom: 1px solid #919191 !important;
+}
+
+.box-right pnput [placeholder]{
+	color: white !important;
+}
+
+.box-right ::placeholder{
+	color: white;
+}
+
+.box-right ::option{
+	color: white;}
+
+.box-left ::option{
+	color: #c9c9c9 !important;}
+
+.f-right{
+	float: right;
+}
+
+.box-right select{
+	color: white;
+}
+
+.box-left select{
+	color: #c9c9c9;
+}
+
+.btn{
+	padding: 14px 24px;
+	border-radius: 35px;
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	border: none;
+}
+label{
+	color: #eee;
+}
+
+label a{
+	color: white;
+	font-weight: bold;
+}
